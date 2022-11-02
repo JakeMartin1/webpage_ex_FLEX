@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX Practice</title>
+    <style>
+        body{
+            background-color: grey;
+            font-size: 40px;
+            margin: 5%;
+        }
+
+        .content {
+            text-align: center;
+            height: 100px;
+            border: 1px solid;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .one {
+            flex-grow: 1;
+        }
+        .two {
+            flex-grow: 3;
+        }
+        .three {
+            flex-grow: 1;
+        }
+        .four {
+            flex-grow: 1;
+        }
+        .five {
+            flex-grow: 1;
+        }
+        .six {
+            flex-grow: 1;
+        }
+        .seven {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="one content">1</div>
+        <div class="two content">2</div>
+    </div>
+
+    <div class="row">
+        <div class="three content">3</div>
+        <div class="four content">4</div>
+        <div class="five content">5</div>       
+    </div>
+
+    <div class="row">
+        <div class="six content">6</div>
+        <div class="seven content">7</div>
+    </div>
+    
+</body>
+</html>
